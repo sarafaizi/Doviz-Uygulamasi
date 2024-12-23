@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Döviz Kuru Uygulaması</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="main">
+            <div class="header-wrapper">
+              <h3>Döviz Kuru Çevirici</h3>
+             
+            </div>
+            <hr style="color: aqua;">
+            <div class="content-wrapper">
+             <input  id="amount" type="number"  placeholder="Miktar"/>
+             <select name="" id="firstCurrencyOption">
+                <option>AUD</option>
+                <option>BGN</option>
+                <option>BRL</option>
+                <option>CAD</option>
+                <option>CHF</option>
+                <option>CNY</option>
+                <option>CZK</option>
+                <option>DKK</option>
+                <option>EUR</option>
+                <option>GBP</option>
+                <option>HKD</option>
+                <option>HRK</option>
+                <option>HUF</option>
+                <option>IDR</option>
+                <option>ILS</option>
+                <option>INR</option>
+                <option>ISK</option>
+                <option>JPY</option>
+                <option>KRW</option>
+                <option>MXN</option>
+                <option>MYR</option>
+                <option>NOK</option>
+                <option>NZD</option>
+                <option>PHP</option>
+                <option>PLN</option>
+                <option>RON</option>
+                <option>RUB</option>
+                <option>SEK</option>
+                <option>SGD</option>
+                <option>THB</option>
+                <option>TRY</option>
+                <option selected>USD</option>
+                <option>ZAR</option>
+                
+             </select>
+             <i class="fa-solid fa-arrow-right"></i>
+             <select name="" id="seconedCurrencyOption">
+                <option selected>USD</option>
+                <option>AUD</option>
+                <option>BGN</option>
+                <option>BRL</option>
+                <option>CAD</option>
+                <option>CHF</option>
+                <option>CNY</option>
+                <option>CZK</option>
+                <option>DKK</option>
+                <option selected>EUR</option>
+                <option>GBP</option>
+                <option>HKD</option>
+                <option>HRK</option>
+                <option>HUF</option>
+                <option>IDR</option>
+                <option>ILS</option>
+                <option>INR</option>
+                <option>ISK</option>
+                <option>JPY</option>
+                <option>KRW</option>
+                <option>MXN</option>
+                <option>MYR</option>
+                <option>NOK</option>
+                <option>NZD</option>
+                <option>PHP</option>
+                <option>PLN</option>
+                <option>RON</option>
+                <option>RUB</option>
+                <option>SEK</option>
+                <option>SGD</option>
+                <option>THB</option>
+                <option>TRY</option>
+                <option>USD</option>
+                <option>ZAR</option>
+              </select>
+              <input type="number"  id="result" placeholder="Sonuç" readonly>
+
+              <span>Copyright - Sara Faizi</span>
+            </div>
+        </div>
+    </div>
+    <script src="currency.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
